@@ -1,0 +1,23 @@
+.wrapper {
+  height: 100vh;
+  width: 100wh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background: grey;
+}
+
+.item {
+  background: darkgoldenrod;
+  width: 500px;
+  padding: 10px 20px;
+  color: whitesmoke;
+}
+
+.question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
